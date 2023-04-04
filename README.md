@@ -14,3 +14,7 @@ In addition, the model also provides pre-defined suggestions to the Tester who h
 2) The PDF file is taken as input and the presence/absence of each Topics and subtopics such as 'Description', 'Steps to Reproduce the bug', 'Priority', 'Severity', 'Test Environment' and the presence/absence of Screenshot of the bug are analysed by iterating to each word present in each page of the PDF file using PyPDF2 Library.
 3) These attributes are updated to an array in which array[0] corresponds to Steps to Reproduce the bug, array[1] corresponds to Specificity of the bug and so on. The values in this array takes either 0 or 1 where 0 indicates that the respective attribute is not present in the uploaded PDF file and 1 indicates that the respective attribute is present in the uploaded PDF file.
 4) The array is taken as a test data and it is passed on the Linear Regression Model which is trained on 2^n rows of data where 'n' is the number of possible attributes and the ML model predicts the % of Clarity in the uploaded PDF file and sends the value to the FrontEnd using Flask. 
+
+# Co-Contributors
+# Frontend: 
+# Flask Framework: @dinesh15052003
