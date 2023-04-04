@@ -16,5 +16,5 @@ In addition, the model also provides pre-defined suggestions to the Tester who h
 4) The array is taken as a test data and it is passed on the Linear Regression Model which is trained on 2^n rows of data where 'n' is the number of possible attributes and the ML model predicts the % of Clarity in the uploaded PDF file and sends the value to the FrontEnd using Flask. 
 
 # Co-Contributors
-# Frontend: 
-# Flask Framework: @dinesh15052003
+**Frontend:** 
+**Flask Framework:** @dinesh15052003
